@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/toolbar_dropshadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LayerTop"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:focusableInTouchMode="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/Layer2"
+            android:gravity="top"
+            android:baselineAligned="false"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            >
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="top|center"
+                    android:layout_gravity="top"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:gravity="top|center"
+                        android:layout_gravity="top"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+
+
+                        >
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+
+                        />
+
+                     </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="top"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+
+                        >
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_New"
+                            android:text="جدید"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Cancel"
+                            android:text="انصراف"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/toolbar_dropshadow_back"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/FooterLayout"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/footergold"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

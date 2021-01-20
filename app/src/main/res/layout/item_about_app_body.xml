@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:layoutDirection="ltr"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        android:paddingTop="10dp"
+        android:textDirection="rtl"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="right|top"
+            android:layout_gravity="top"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="نرم افزار مخاطب پلاس"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:id="@+id/TextView_Crouse"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="0"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:id="@+id/TextView_User"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="سازگار با اندروید 4.2 به بالا"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="12sp"
+                android:id="@+id/TextView_Position"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/plus"
+                android:id="@+id/ImageViewAccount"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Ok"
+        android:text="تایید"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="2dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:padding="10dp">
+
+
+    <Button
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Clipboard"
+        android:text="کپی در کلیپ بورد"
+        android:background="@drawable/grid_selector"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff626c83"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+
+        />
+
+    <Button
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_ShareWith"
+        android:text="ارسال با ..."
+        android:background="@drawable/grid_selector"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff626c83"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+
+        />
+
+    <Button
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Telegram"
+        android:text="ارسال با تلگرام"
+        android:background="@drawable/grid_selector"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff626c83"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+
+        />
+
+    <Button
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Edit"
+        android:text="ویرایش"
+        android:background="@drawable/grid_selector"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff626c83"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+
+        />
+
+    <Button
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Delete"
+        android:text="حذف"
+        android:background="@drawable/grid_selector"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff626c83"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+
+        />
+
+    <Button
+        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Cancel"
+        android:text="انصراف"
+        android:background="@drawable/grid_selector"
+
+        />
+
+
+</LinearLayout>

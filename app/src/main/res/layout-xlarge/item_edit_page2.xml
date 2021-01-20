@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/toolbar_dropshadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LayerTop"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:focusableInTouchMode="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/Layer2"
+            android:gravity="top"
+            android:baselineAligned="false"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ScrollView1"
+                android:layout_marginTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="right|center"
+                        android:text="تاریخ تولد :"
+                        android:paddingRight="10dp"
+                        android:id="@+id/TextView_BirthDate"
+                        android:textSize="15sp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/editbox_selector"
+                        android:gravity="center"
+                        android:layout_gravity="center">
+
+                        <Spinner
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/Spinner_Day"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+
+                            />
+
+                        <Spinner
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/Spinner_Month"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            />
+
+                     <EditText
+                         android:layout_width="0dp"
+                         android:layout_height="45dp"
+                         android:gravity="center"
+                         android:layout_gravity="center"
+                         android:inputType="number"
+                         android:id="@+id/EditText_Birth_Year"
+                         android:textSize="13sp"
+                         android:hint="سال تولد"
+                         android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="right|center"
+                        android:text="تاریخ عقد : "
+                        android:paddingRight="10dp"
+                        android:id="@+id/TextView_AghdDate"
+                        android:textSize="15sp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/editbox_selector"
+                        android:gravity="center"
+                        android:layout_gravity="center">
+
+                        <Spinner
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/Spinner_Aghd_Day"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            />
+
+                        <Spinner
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/Spinner_Aghd_Month"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:inputType="number"
+                            android:id="@+id/EditText_Aghd_Year"
+                            android:textSize="13sp"
+                            android:hint="سال عقد"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="right|center"
+                        android:text="تاریخ ازدواج :"
+                        android:paddingRight="10dp"
+                        android:id="@+id/TextView_EzdvajDate"
+                        android:textSize="15sp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/editbox_selector"
+                        android:gravity="center"
+                        android:layout_gravity="center">
+
+                        <Spinner
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/Spinner_Ezdevaj_Day"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            />
+
+                        <Spinner
+                            android:layout_marginRight="10dp"
+                            android:id="@+id/Spinner_Ezdevaj_Month"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            />
+
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:inputType="number"
+                            android:id="@+id/EditText_Ezdevaj_Year"
+                            android:textSize="13sp"
+                            android:hint="سال ازدواج"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="top"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+                        android:layout_marginTop="20dp"
+
+                        >
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Save"
+                            android:text="ثبت تغییرات"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Cancel"
+                            android:text="انصراف"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="top"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+
+                        >
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Telegram"
+                            android:text="ارسال با تلگرام"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_ShareWith"
+                            android:text="ارسال با ..."
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/toolbar_dropshadow_back"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/FooterLayout"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/footergold"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

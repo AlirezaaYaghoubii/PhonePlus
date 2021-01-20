@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/toolbar_dropshadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LayerTop"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:focusableInTouchMode="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/Layer2"
+            android:gravity="top"
+            android:baselineAligned="false"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            >
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                      >
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/profile_image"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+
+                            app:civ_border_width="1dp"
+                            app:civ_border_color="#ffaeb7c7"
+                            android:layout_gravity="center"
+                            />
+                    </LinearLayout>
+
+                   <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_gravity="top"
+                            android:layoutDirection="rtl"
+                            android:textDirection="rtl"
+
+                            >
+
+                            <Button
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:id="@+id/Btn_NewImg"
+                                android:text="عکس جدید"
+                                android:background="@android:drawable/dialog_holo_light_frame"
+                                />
+
+
+
+                            <Button
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:id="@+id/Btn_SelectImg"
+                                android:text="انتخاب عکس"
+                                android:background="@android:drawable/dialog_holo_light_frame"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_gravity="top"
+                            android:layoutDirection="rtl"
+                            android:textDirection="rtl"
+
+                            >
+
+                            <Button
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:id="@+id/Btn_Save"
+                                android:text="ثبت تغییرات"
+                                android:background="@android:drawable/dialog_holo_light_frame"
+                                />
+
+
+                            <Button
+                                android:layout_height="50dp"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:id="@+id/Btn_Delete"
+                                android:text="حذف عکس"
+                                android:background="@android:drawable/dialog_holo_light_frame"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/toolbar_dropshadow_back"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/FooterLayout"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/footergold"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

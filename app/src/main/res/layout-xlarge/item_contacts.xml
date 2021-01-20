@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:padding="5dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="1dp"
+            android:gravity="center|top"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:gravity="center|top"
+            android:layout_gravity="top"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+
+                app:civ_border_width="1dp"
+                app:civ_border_color="#ffaeb7c7"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            android:paddingTop="1dp"
+            android:textDirection="rtl"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center|top"
+                android:layout_gravity="top"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="محمد صادق"
+                    android:gravity="center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="17sp"
+                    android:id="@+id/TextView_TitleLabel"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:gravity="center|top"
+                android:layout_gravity="top"
+                android:layoutDirection="ltr"
+                android:textDirection="ltr"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="09198284582"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:id="@+id/TextView_Mobile1"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:layout_gravity="left|top"
+                android:gravity="left|center"
+                android:layoutDirection="ltr"
+                android:textDirection="ltr"
+                android:background="@drawable/grid_pressed"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layoutDirection="ltr"
+                    android:paddingTop="0dp"
+                    android:textDirection="ltr"
+                    android:layout_gravity="left|top"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:id="@+id/LinearLayoutOPenMenu">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:id="@+id/ImageViewOPenMenu"
+                        android:layout_gravity="left|center"
+                        android:layout_marginLeft="3dp"
+
+                        />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:id="@+id/LinearLayoutCall">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="left|center"
+
+                        android:id="@+id/ImageViewMobile"
+                        />
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:id="@+id/LinearLayoutSendSms">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/ImageViewSms"
+
+                        />
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        >
+                        </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

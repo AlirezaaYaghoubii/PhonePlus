@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_Home" android:title="صفحه اصلی"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_save" />
+
+    <item android:id="@+id/action_About" android:title="در مورد برنامه"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_Other" android:title="معرفی به دوستان"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_Programmer" android:title="برنامه نویس"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_Exit" android:title="خروج"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+</menu>

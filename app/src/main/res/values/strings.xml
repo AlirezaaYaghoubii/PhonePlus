@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">مخاطب پلاس</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">منو باز</string>
+    <string name="drawer_close">منو بسته</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_contacts_grid_view">ContactsGridView</string>
+    <string name="title_activity_contacts_list">ContactsList</string>
+    <string name="title_activity_contacts_edit">ContactsEdit</string>
+    <string name="title_activity_contacts_details_edit">ContactsDetailsEdit</string>
+    <string name="title_activity_sim_contacts_list">SimContactsList</string>
+    <string name="title_activity_contacts_info_report">ContactsInfoReport</string>
+    <string name="title_activity_bank_info_report">BankInfoReport</string>
+    <string name="title_activity_tavalod">Tavalod</string>
+    <string name="title_activity_aghd">Aghd</string>
+    <string name="title_activity_ezdevaj">Ezdevaj</string>
+    <string name="title_activity_vafat">Vafat</string>
+    <string name="title_activity_taghvim">Taghvim</string>
+    <string name="title_activity_full_report">FullReport</string>
+</resources>

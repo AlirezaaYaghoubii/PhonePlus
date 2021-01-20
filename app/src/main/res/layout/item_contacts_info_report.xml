@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:padding="10dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            android:paddingTop="1dp"
+            android:textDirection="rtl"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                android:background="@drawable/grid_pressed"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="نام : "
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_NameLabel"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="محمد صادق"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_NameData"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="تلفن : "
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_PhoneLabel"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="09198284582"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_PhoneData"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="تاریخ تولد :"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_TavalodLabel"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="1393/06/23"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_TavalodData"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffc8c8c8"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginLeft="0dp"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="کد ملی :"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_MelliIdLabel"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="1234567897"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_MelliIdData"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="شناسنامه :"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_ShenasnamehIdLabel"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="1234567897"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_ShenasnamehIdData"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:clickable="false"
+                android:background="@drawable/grid_pressed"
+
+                >
+
+                <Button
+                    android:layout_height="50dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/Btn_Telegram"
+                    android:text="ارسال با تلگرام"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    />
+
+                <Button
+                    android:layout_height="50dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/Btn_ShareWith"
+                    android:text="ارسال با ..."
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

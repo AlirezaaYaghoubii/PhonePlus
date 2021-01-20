@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:layoutDirection="ltr"
+    android:padding="5dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        android:paddingTop="10dp"
+        android:textDirection="rtl"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="right|top"
+            android:layout_gravity="top"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:focusableInTouchMode="true"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/editbox_selector_red">
+                <Spinner
+                    android:id="@+id/Spinner_Color1"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </LinearLayout>
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:focusableInTouchMode="true"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/editbox_selector_red">
+                <Spinner
+                    android:id="@+id/Spinner_Color2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Ok"
+        android:text="تایید"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="2dp"
+        />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_NotOk"
+        android:text="انصراف"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="2dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:layoutDirection="ltr"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        android:paddingTop="10dp"
+        android:textDirection="rtl"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="right|top"
+            android:layout_gravity="top"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="ساخت فایل پشتیبان"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:id="@+id/TextView_Crouse"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/recovery"
+                android:id="@+id/ImageViewAccount"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="left|top"
+        android:layout_gravity="top"
+        android:layoutDirection="ltr"
+        android:textDirection="ltr"
+        android:paddingTop="5dp"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="left|center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="8sp"
+            android:id="@+id/EditText_SRC"
+            android:editable="false"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="left|top"
+        android:layout_gravity="top"
+        android:layoutDirection="ltr"
+        android:textDirection="ltr"
+        android:paddingTop="5dp"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="left|center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="8sp"
+            android:id="@+id/EditText_Desc"
+            android:editable="false"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_SelectFile"
+        android:text="انتخاب فایل ..."
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="2dp"
+        />
+
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Ok"
+        android:text="تایید"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="2dp"
+        />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_NotOk"
+        android:text="انصراف"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="2dp"
+        />
+
+
+
+</LinearLayout>

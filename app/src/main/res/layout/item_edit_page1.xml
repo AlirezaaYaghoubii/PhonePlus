@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/toolbar_dropshadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LayerTop"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:focusableInTouchMode="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/Layer2"
+            android:gravity="top"
+            android:baselineAligned="false"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/ScrollView1"
+                android:layout_marginTop="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+
+                    >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/editbox_selector_red">
+
+                    <Spinner
+                        android:id="@+id/Spinner_Sex"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/EditText_UserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector_red"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="نام"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_Mobile1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector_red"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="تلفن"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="number"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_Mobile2"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="تلفن دو"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="number"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="ایمیل"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="textEmailAddress"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_WebSite"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="وب سایت"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="textWebEditText"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_Address"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="آدرس"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_PostId"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="کد پستی"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="number"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_ShenasNameh"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="شماره شناسنامه"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="number"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_MelliId"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="شماره ملی"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="number"
+                        />
+
+                    <EditText
+                        android:id="@+id/EditText_GovahinamehId"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editbox_selector"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:hint="شماره گواهینامه"
+                        android:gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:inputType="number"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="top"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+
+                        >
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Save"
+                            android:text="ثبت مخاطب"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_New"
+                            android:text="مخاطب جدید"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="top"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+
+                        >
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Delete"
+                            android:text="حذف مخاطب"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Cancel"
+                            android:text="انصراف"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="top"
+                        android:layoutDirection="rtl"
+                        android:textDirection="rtl"
+
+                        >
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_Telegram"
+                            android:text="ارسال با تلگرام"
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                        <Button
+                            android:layout_height="50dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/Btn_ShareWith"
+                            android:text="ارسال با ..."
+                            android:background="@android:drawable/dialog_holo_light_frame"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/toolbar_dropshadow_back"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/FooterLayout"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/footergold"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:layoutDirection="ltr"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        android:paddingTop="10dp"
+        android:textDirection="rtl"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="right|top"
+            android:layout_gravity="top"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="برنامه نویس و طراح"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:id="@+id/TextView_Crouse"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="علیرضا یعقوبی"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:id="@+id/TextView_User"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="پاییز 1396"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="12sp"
+                android:id="@+id/TextView_Position"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:src="@drawable/android_developer"
+                android:id="@+id/ImageViewAccount"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:gravity="left|top"
+        android:layout_gravity="top"
+        android:layoutDirection="ltr"
+        android:textDirection="ltr"
+        android:paddingLeft="3dp"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="left|top"
+            android:layout_gravity="top"
+            android:layoutDirection="ltr"
+            android:textDirection="ltr"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/phoneicon"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="09198284582"
+                android:gravity="left|center"
+                android:paddingRight="10dp"
+                android:textSize="12sp"
+                android:id="@+id/TextView_Phone"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="left|top"
+            android:layout_gravity="top"
+            android:layoutDirection="ltr"
+            android:textDirection="ltr"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/emailicon"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="a.yaghoubi.dev@gmail.com"
+                android:gravity="left|center"
+                android:paddingRight="10dp"
+                android:textSize="12sp"
+                android:id="@+id/TextView_Email"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/Btn_Ok"
+        android:text="تایید"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="2dp"
+        />
+
+
+
+</LinearLayout>

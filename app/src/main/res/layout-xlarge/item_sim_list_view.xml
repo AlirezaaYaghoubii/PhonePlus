@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    android:layoutDirection="rtl"
+    android:padding="10dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layoutDirection="rtl"
+            android:paddingTop="1dp"
+            android:textDirection="rtl"
+
+            >
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="نام : "
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_NameLabel"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="محمد صادق"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_NameData"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="تلفن : "
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_PhoneLabel"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="09198284582"
+                    android:gravity="right|center"
+                    android:paddingRight="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    android:id="@+id/TextView_PhoneData"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:gravity="right|top"
+                android:layout_gravity="top"
+                android:background="@drawable/grid_pressed"
+                >
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="انتقال به برنامه"
+                    android:id="@+id/CheckBox_Transfer"
+                    android:layout_marginRight="5dp"
+                    android:checked="false"
+                    android:textSize="13sp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
